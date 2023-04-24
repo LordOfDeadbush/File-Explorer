@@ -8,4 +8,8 @@ Development Tree:
 
 [comment]: <> (for personal use: github.com/LordOfDeadbush/Tech-Tree/file-explorer-tree)
 
-I will include implementation tips in the modules folder test
+## Modules:
+
+* ![Module 1: User Interactions In Text](https://github.com/LordOfDeadbush/File-Explorer/blob/main/modules/text_ui.md)
+* ![Module 2: Object-Oriented Programming](https://github.com/LordOfDeadbush/File-Explorer/blob/main/modules/object_oriented.md)
+* ![Module 3: Navigating Filesystems](https://github.com/LordOfDeadbush/File-Explorer/blob/main/modules/tips_on_navigating_filesystems.md)
