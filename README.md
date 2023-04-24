@@ -2,7 +2,7 @@
 
 This is going to be a file explorer for Windows (and hopefully other OSes down the line) that will have optimized features
 
-Development Tree:
+## Development Tree
 
 ![image](https://raw.githubusercontent.com/LordOfDeadbush/Tech-Tree/file-explorer-tree/svg.svg)
 
