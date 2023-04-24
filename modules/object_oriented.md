@@ -111,7 +111,7 @@ Set a variable to a value
 
 Return the value of the variable
 
-The main reason for setters and getters is to make sure that our values for variables are accurate. See below:
+The main reason for setters and getters is to make sure that our values for variables are accurate.
 
 ``` c++
 #include <iostream>
