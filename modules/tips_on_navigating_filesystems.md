@@ -1,23 +1,29 @@
 # tips for navigating filesystems
 
-![https://docs.python.org/3/library/os.path.html](https://docs.python.org/3/library/os.path.html)
+In this project (and all c++ projects because this language loves to be annoying) we want to stick to standard libraries.
 
-it might be worthwhile to use ```os``` for our library (for simplicity)
+The reason for this is because c++ has one funny (and very frustrating) quirk in not having native package support.
 
-the way we would do that is this:
+(for example, in node.js we have ```npm``` and python has ```pip```)
 
-``` python
-import os
-os.path.command()
-```
+what this means is that a lot of the time, in order to use external libraries we need to copy the code into our folders, which is messy and annoying.
 
-where ```command``` is the command we want to run
+An exception to this is the win32 library.
 
-another option is this:
+## STD libraries pertaining to filesystems
 
-``` python
-from path import os
-path.command()
-```
+### Reading/Writing Files
 
-personally, I would use the second way :)
+if we want to simply read files, we can use ```cin``` from our handy ```iostream``` library that we discuss in the ![text ui module]().
+
+```cout``` can be used in a similar fashion.
+
+### Navigating Directories
+
+This is where it gets harder as this is much less common to do.
+
+I found a library called ```filesystem``` that may be the answer to our problem.
+
+See the StackOverflow answer that I found ![here](https://stackoverflow.com/questions/612097/how-can-i-get-the-list-of-files-in-a-directory-using-c-or-c/37494654#37494654)
+
+A big part of this project will be researching how to do stuff, so I will leave this to other project members to figure out how to do this.
